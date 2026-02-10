@@ -1,0 +1,154 @@
+/* src/pages/Dashboard.css */
+
+.dashboard {
+  padding: 20px;
+  background-color: #f7f9fc;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.dashboard-subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 220px;
+}
+
+.stat-card h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.stat-card p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: #222;
+}
+
+.stat-card .icon {
+  font-size: 30px;
+}
+
+.stat-card.blue .icon {
+  color: #007bff;
+}
+.stat-card.green .icon {
+  color: #28a745;
+}
+.stat-card.orange .icon {
+  color: #fd7e14;
+}
+.stat-card.purple .icon {
+  color: #6f42c1;
+}
+
+.bottom-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.village-distribution,
+.recent-activities {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.village-distribution h3,
+.recent-activities h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.village-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.village-row span {
+  min-width: 80px;
+  font-size: 14px;
+}
+
+.bar {
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar .fill {
+  background-color: #3399ff;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.recent-activities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-activities li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.blue-dot {
+  background-color: #007bff;
+}
+
+.orange-dot {
+  background-color: #fd7e14;
+}
+
+.green-dot {
+  background-color: #28a745;
+}
+
+.time {
+  margin-left: auto;
+  color: #999;
+  font-size: 12px;
+}
